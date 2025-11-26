@@ -39,7 +39,7 @@ problemas reales como "pago rechazado". Finalmente, se imprime por consola un re
 **aspects/**
 - LoggingAspect.java → Aspecto AOP que registra el inicio y fin de cada pedido anotado.
 
-**ProcesamientoPedidosApplication.java**
+**AopOrdersApplication**
 Clase principal de Spring Boot. Lanza la simulación creando varios pedidos y enviándolos al servicio para su procesamiento concurrente.
 
 ---
